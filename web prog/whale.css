@@ -1,0 +1,109 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding-top: 65px;
+	background-color: lightblue;
+	margin: 0px;
+}
+
+.menu{
+	background-color: #004f92;
+	margin: 0px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.menu li{
+	margin: 10px 10px;list-style: none;
+}
+
+.menu button{
+	color: whitesmoke;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: #004f92;
+	text-decoration: none;
+	margin: 5px 25px;
+    font-weight: bold;
+    font-size: 25px; 
+    transition: 0.6s;
+}
+
+
+.menu button:hover{
+	font-size: 30px;
+}
+
+.main {
+	position: relative;
+	text-align: center;
+}
+
+.main p{
+	background-color: rgba(0, 0, 90, 0.5);
+	padding: 50px;
+	position: absolute;
+	font-size: 75px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: whitesmoke;
+}
+
+.main-text{
+	float: left;
+	background-color: #006db2;
+	padding: 10px;
+	margin: 15px 10% 15px 10%;
+	font-size: 25px;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.whales a{
+	color: #ff964f;
+	transition: 0.3s;
+	opacity: 0.8;
+}
+
+.whales a:hover{
+	opacity: 1;
+}
+
+.whales{
+	float: left;
+	background-color: #006db2;
+	padding: 10px;
+	margin: 15px 10% 15px 10%;
+	font-size: 25px;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.whales p{
+	padding: 10px;
+}
+
+
+.icon {
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	align-content: center;
+	overflow: hidden;
+	padding: 75px;
+}
+.icon button{
+	margin: 15px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}

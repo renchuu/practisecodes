@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="whale.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/a31ba6bccc.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Whale</title>
+</head>
+<body>
+	<div  style="z-index: 1; position: fixed; width: 100%; top: 0; height: 75px;">
+		<ul class="menu">
+			<li><button onclick="document.getElementById('blue-whale').scrollIntoView();">Blue Whale</button></li>
+			<li><button onclick="document.getElementById('southern-whale').scrollIntoView();"> Southern Right Whale</button></li>
+			<li><button onclick="document.getElementById('killer-whale').scrollIntoView();"> Killer Whale</button></li>
+			<li><button onclick="document.getElementById('bowhead-whale').scrollIntoView();"> Bowhead Whale</button></li>
+		</ul>
+	</div>
+	<div class="main">
+		<img src="main.jpg" width="100%">
+		<p>The World of Whales</p>
+	</div>
+	<div class="main-text">
+			<div>Hunted to the adge of extinction, whales are the the largest animals alive today.
+			They are the largest animals to have ever lived, dwarfing even the largest dinosaurs. Whales are a diverse group of fully aquatic placental marine mammals belonging to the order Cetacea. Whales are distributed throughout the world's oceans and seas. All are entirely aquatic with specialized adaptations. </div>
+			<div>
+				<img src="main3.jpg" width="500" height="300">
+			</div>
+	</div>
+
+	<div class="whales" id="blue-whale">
+		<div>
+			<img src="bluewhale.jpg" width="425" height="300">
+		</div>
+		<div>
+			<p>Blue whales are the largest animals ever known to have lived. They rule the oceans up to 100 feet long and upwards of 200 tons. Its stomach can hold one ton of krill and it needs to eat around four tons of krill each day. They are the loudest animals and are even louder than a jet engine. Their calls reach 188 decibels, while a jet reaches only 140 decibels. Their low frequency whistles can be heard from hundreds of miles away and is probably used to attract other blue whales.
+			<p><a href=" ">More about Blue Whales>></a></p>
+		</div>
+	</div>
+
+	<div class="whales" id="southern-whale">
+			<div>
+				<p>
+					Southern right whales have a stocky, black body often with the white belly and chin patches and a big head covered in callosities. Southern right whales were hunted extensively by the whaling industry until the 1960s. Several breeding populations have recovered since then, while others have not. 
+				</p>
+				<p>
+					<a href="">More about Southern Right Whales>></a>
+				</p>
+			</div>
+			<div>
+				<img src="southern.jpg" width="500" height="332">
+			</div>
+	</div>
+
+	<div class="whales" id="killer-whale">
+		<div>
+			<img src="killerwhales.jpg" width="500" height="300">
+		</div>
+		<div>
+			<p>Orcas or killer whales are one of the world's most powerful preditors. They are pretty recognizable by their distinctive black and white coloring. Orcas make a wide variety of communicative sounds. They are protective of their young. Orcas are evolved to swim up to 40 miles a day. Several different populations of killer whales are found. It is estimated that there are approximately 50.000 killer whales globally.
+			<p><a href=" ">More about Killer Whales>></a></p>
+		</div>
+	</div>
+
+	<div class="whales" id="bowhead-whale">
+			<div>
+				<p>
+					 Of all large whales, the bowhead whales are the most adapted to life in icy water. Bowhead whales have a dark body with a distinctive white chin and unlike most cetaceans. The bow-shaped skull can be over 16.5 feet long which is about a third of its bosy length. Bowhead whales are extremely vocal and have a large variety of calls.
+				</p>
+				<p>
+					<a href="">More about Bowhead Whales>></a>
+				</p>
+			</div>
+			<div>
+				<img src="bowhead.jpg" width="500" height="333">
+			</div>
+	</div>
+
+	<script>
+		$(document).ready(function(){
+	  	$('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
+
+	<div  class="icon">
+		<h2>Contact Me</h2>
+		<p><i class="fa fa-cookie"></i> Ceren Delibas</p>
+		<button data-toggle="tooltip" title="Click ToCopy!" onclick="navigator.clipboard.writeText('+90 555 555 55 55');"><i class="fa-solid fa-phone"></i> +90 555 555 55 55</button>
+		<br>
+		<button type="button" data-toggle="tooltip" title="Click ToCopy!"onclick="navigator.clipboard.writeText('rendelibas@gmail.com');"><i class="fa-solid fa-at" ></i>rendelibas@gmail.com</button>
+	</div>
+
+</body>
+</html>
